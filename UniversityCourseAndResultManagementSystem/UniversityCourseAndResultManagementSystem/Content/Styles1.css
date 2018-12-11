@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.links {
+    margin-top: 10px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.links li {
+    border-left: 1px solid #ffffff;
+    float: left;
+    display: inline-block;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    background-color: blue;
+}
+.links li a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    /*font-family: 'Shadows Into Light';*/
+}
+/*.links li a:hover{
+    font-size: 18px;*/
+}
+.links li:hover {
+    background-color:teal;
+    width: 25%;
+    height: 35px;
+    line-height: 35px;
+}
+label.error {
+    color: #B94A48;
+    font-weight: normal;
+}
+.titleBar {
+    background-color: royalblue;
+    height: 100px;
+    line-height: 100px;
+}
+.titleBar p {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.groupName {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+h2 {
+    font-family: 'Philosopher', sans-serif;
+}
